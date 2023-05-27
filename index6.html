@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                Open modal
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>Add Person</h1><span class="close" data-dismiss="modal">&times</span>
+                        </div>
+                        <div class="modal-body">
+                            <label for="name" style="margin-left: 20px"><h6>First Name</h6></label>
+                            <input type="text" id="name" style="width: 600px" placeholder="First Name">
+                            <br>
+                            <br>
+                            <label for="name" style="margin-left: 20px"><h6>Last Name</h6></label>
+                            <input type="text" style="width: 600px" id="name" placeholder="Last Name">
+                            <br>
+                            <br>
+                            <label for="name" style="margin-left: 40px"><h6>Gender</h6></label>
+                            <input type="text" style="width: 600px" id="name" placeholder="Male">
+                            <br>
+                            <br>
+                            <label for="name" style="margin-left:25px"><h6>Address</h6></label>
+                            <textarea name="dist" style="width: 600px;margin-left: 10px" id="name"   placeholder="Address"></textarea>
+                            <br>
+                            <label for="name" style="margin-left:"><h6>Data of Birth</h6></label>
+                            <input type="text"  style="width: 600px" id="name" placeholder="yyy-mm-dd">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="css/js/jQuery.min.js"></script>
+<script src="css/js/src/popover.js"></script>
+<script src="css/js/bootstrap.js"></script>
+</body>
+</html>
